@@ -24,6 +24,8 @@ public class item
 
 
     //Seconde méthode en utilisant sources (elle est bien plus simple)
+
+
     public void Equip(Character c)
     {
         c.Strength.AddModifier(new StatModifier(10, StatModType.Flat, this));
